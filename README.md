@@ -1,6 +1,8 @@
-# squid-SSL
+# squid-SSLBumb
 # Squid on Alpine with SSLBump ![Logo](squid_logo.png)
 Squid on Alpine Linux and add SSLBump feature to Squid in this image.
+https://hydrasky.com/linux/administration/setting-up-web-proxy-using-squid-and-docker-compose/
+image: alatas/squid-alpine-ssl
 
 The total size of this image is 8MB. You can get up and running this full feature web proxy in a minute or so.
 
@@ -8,7 +10,7 @@ The SSLBump feature is an optional feature in this image, and use this feature [
 
 ## Quick Start
 
-1. Download the [latest release](https://github.com/alatas/squid-alpine-ssl/releases/latest) and unzip. You may use the command below or do it manually.
+1. Download the [latest release](https://github.com/fofonovrv/squid-ssl/releases/latest) and unzip. You may use the command below or do it manually.
 
 ```shell
 curl -s https://api.github.com/repos/fofonovrv/squid/releases/latest | grep "browser_download_url.*docker.zip" | head -1 | cut -d : -f 2,3 | cut -d '"' -f 2 | xargs curl -L -o release.zip ; unzip release.zip ; rm release.zip
