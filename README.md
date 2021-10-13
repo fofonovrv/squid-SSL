@@ -1,6 +1,5 @@
 # squid-SSL
-# Squid on Alpine with SSLBump ![Logo](squid_logo.png)[![Build Status](https://travis-ci.org/fofonovrv/squid.svg?branch=master)](https://travis-ci.org/fofonovrv/squid)
-
+# Squid on Alpine with SSLBump ![Logo](squid_logo.png)
 Squid on Alpine Linux and add SSLBump feature to Squid in this image.
 
 The total size of this image is 8MB. You can get up and running this full feature web proxy in a minute or so.
